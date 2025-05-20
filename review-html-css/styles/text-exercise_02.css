@@ -1,0 +1,43 @@
+p {
+  font-family: Montserrat;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.video-stats {
+  font-size: 14px;
+  color: rgb(65, 65, 65);
+  margin-bottom: 15px;
+}
+.video-marques {
+  font-size: 14px;
+  color: rgb(65, 65, 65);
+}
+.video-description {
+  font-size: 14px;
+  color: rgb(65, 65, 65);
+  width: 300px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+.video-warning {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(222, 41, 41);
+  color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+.span-exemple {
+  margin-left: 20px;
+}
+.span-exemple:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device, initial-scale=1.0" />
+    <title>Lesson 8</title>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      .frames {
+        display: flex;
+        justify-content: centern;
+        flex-direction: column;
+        margin: 3rem;
+      }
+
+      .nameField,
+      .emailField {
+        background-color: white;
+        color: #777;
+        font-size: 1.6rem;
+        border: solid 1px #777;
+        border-radius: 0.5rem;
+        display: block;
+        margin: 0.2rem;
+        padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+        width: 250px;
+      }
+      .survey {
+        display: inline-block;
+      }
+      .surveyQ {
+        font-size: 1.5rem;
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .sector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+      }
+
+      .searchPage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem;
+      }
+      .googleLogo {
+        width: 200px;
+      }
+      .googleSearch {
+        width: 440px;
+        font-size: 1.7rem;
+        color: #222;
+        border-radius: 3rem;
+        border: none;
+        box-shadow: 0px 1px 8px #bbb;
+        padding: 0.8rem 1rem 1rem 2rem;
+        margin-top: -1rem;
+      }
+      .smar {
+        margin: 0.4rem;
+        border-radius: 1rem;
+        border: solid 1px #777;
+        font-size: 1.9rem;
+        padding: 1rem;
+      }
+      .sInputs {
+        width: 150px;
+      }
+      .loginFrame {
+        display: flex;
+        flex-direction: column;
+      }
+      .inputlineOne {
+        display: flex;
+        justify-content: center;
+        color: #222;
+      }
+      .signUp {
+        background-color: rgb(15, 91, 214);
+        color: white;
+        padding: 1rem;
+        cursor: pointer;
+      }
+      .requestRide {
+        color: black;
+        font-size: 4rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin: 2rem;
+      }
+      .requestInput {
+        background-color: #eee;
+        border: none;
+        margin: 0.4rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        width: 330px;
+      }
+      .requestButtons {
+        margin-top: 2rem;
+      }
+      .butreq {
+        background-color: black;
+        border: none;
+        margin: 0.4rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        width: 150px;
+      }
+      .req {
+        background-color: black;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+      .sched {
+        background-color: #eee;
+        color: black;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sector">
+      <div class="searchPage">
+        <img class="googleLogo" src="images/Google-Logo-3014348739.png" />
+        <input class="googleSearch" placeholder="Search Google or type a URL" />
+      </div>
+    </div>
+    <div class="sector">
+      <div class="frames">
+        <input class="frameInput nameField" placeholder="Name" />
+        <input class="frameInput emailField" placeholder="Email" />
+      </div>
+      <div class="frames">
+        <div class="survey?">
+          <p class="surveyQ">
+            Thanks for chatting with our customer support. Would you like to
+            take our quick survey?
+          </p>
+          <button>Yes</button>
+          <button>No</button>
+        </div>
+      </div>
+    </div>
+    <div class="sector">
+      <div class="loginFrame">
+        <div class="inputlineOne">
+          <input class="smar sInputs" placeholder="First name" />
+          <input class="smar sInputs" placeholder="Last Name" />
+        </div>
+        <input class="smar sInputs2" placeholder="Email" />
+        <button class="smar signUp">Sign Up</button>
+      </div>
+    </div>
+    <div class="sector">
+      <p class="requestRide">Request a ride now</p>
+      <input
+        class="requestInput"
+        type="text"
+        placeholder="Enter pickup location"
+      />
+      <input class="requestInput" placeholder="Enter destination" />
+      <div class="requestButtons">
+        <button class="butreq req">Request Now</button>
+        <button class="butreq sched">Schedule for later</button>
+      </div>
+    </div>
+  </body>
+</html>
