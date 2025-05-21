@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .catFrame {
+        width: 390px;
+        margin: 9px;
+        padding: 3px;
+      }
+      .catFace,
+      .catStats,
+      .followFrame {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .imageCat {
+        width: 100%;
+        height: 100%;
+        border-radius: 80px;
+      }
+      .catFace {
+        width: 60px;
+        height: 60px;
+        padding: 10px 10px 10px 10px;
+      }
+      .catStats {
+        width: 190px;
+      }
+      .catName {
+        font-weight: 800;
+      }
+      .whatis,
+      .rating {
+        color: #888;
+      }
+      .followFrame {
+        padding-left: 5px;
+      }
+      .followButton {
+        background-color: rgb(28, 164, 255);
+        color: white;
+        padding: 7px 14px 7px 14px;
+        border: none;
+        border-radius: 5px;
+        font-size: 22px;
+      }
+      .allFollowFrames {
+        width: 410px;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px #ddd;
+        margin: 14px;
+      }
+      .allvideos {
+        border: none;
+        margin: 30px 0px 0px 15px;
+      }
+      .videopreviewframe {
+        padding: 2px;
+      }
+      .thumbvideo,
+      .videoInfo {
+        display: inline-block;
+        vertical-align: top;
+      }
+      .videotitle,
+      .channel,
+      .videostats {
+        vertical-align: middle;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+      }
+      .thumbvideo {
+        width: 180px;
+      }
+      .thbimg {
+        width: 100%;
+      }
+      .videoInfo {
+        width: 270px;
+      }
+      .videotitle {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .channel,
+      .videostats {
+        font-size: 13px;
+        margin-bottom: 4px;
+        color: #888;
+      }
+      .alladdscat {
+        margin: 15px;
+        display: inline-block;
+      }
+      .addcat {
+        width: 130px;
+        height: 100%;
+        border: none;
+        box-shadow: 0px 0px 7px #888;
+        margin-right: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+      }
+      .catimframe {
+        width: 100%;
+        height: 130px;
+      }
+      .catim {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .catinfo {
+        padding-left: 7px;
+      }
+      .catname {
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 12px;
+      }
+      .useravatarframe,
+      .numberfriends {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 3px;
+      }
+      .useravatarframe {
+        width: 21px;
+      }
+      .useravatar {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+      }
+      .numberfriends {
+        font-size: 11px;
+        color: #999;
+      }
+      .addfriend {
+        background-color: rgb(0, 128, 255);
+        color: white;
+        font-size: 11px;
+        padding: 6px 12px 6px 12px;
+        border: none;
+        border-radius: 3px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="allFollowFrames">
+      <div class="catFrame">
+        <div class="catFace">
+          <img
+            class="imageCat"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catStats">
+          <p class="catName">Oliver</p>
+          <p class="whatis">the cat</p>
+          <p class="rating">Popular</p>
+        </div>
+        <div class="followFrame">
+          <button class="followButton">Follow</button>
+        </div>
+      </div>
+      <div class="catFrame">
+        <div class="catFace">
+          <img
+            class="imageCat"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catStats">
+          <p class="catName">Mimi</p>
+          <p class="whatis">the cat</p>
+          <p class="rating">Popular</p>
+        </div>
+        <div class="followFrame">
+          <button class="followButton">Follow</button>
+        </div>
+      </div>
+      <div class="catFrame">
+        <div class="catFace">
+          <img
+            class="imageCat"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catStats">
+          <p class="catName">Rex</p>
+          <p class="whatis">the cat</p>
+          <p class="rating">Popular</p>
+        </div>
+        <div class="followFrame">
+          <button class="followButton">Follow</button>
+        </div>
+      </div>
+      <div class="catFrame">
+        <div class="catFace">
+          <img
+            class="imageCat"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catStats">
+          <p class="catName">Ozzy</p>
+          <p class="whatis">the cat</p>
+          <p class="rating">Popular</p>
+        </div>
+        <div class="followFrame">
+          <button class="followButton">Follow</button>
+        </div>
+      </div>
+    </div>
+    <div class="allvideos">
+      <div class="videopreviewframe">
+        <div class="thumbvideo">
+          <img
+            class="thbimg"
+            src="../youtubeClone/thumbnails/images/thumbnail-1.webp"
+          />
+        </div>
+        <div class="videoInfo">
+          <p class="videotitle">
+            How to compete against CS degree (as a self-taugh dev)
+          </p>
+          <p class="channel">SuperSimpleDev</p>
+          <p class="videostats">1.5k views &#183; 4 mounths ago</p>
+        </div>
+      </div>
+      <div class="videopreviewframe">
+        <div class="thumbvideo">
+          <img
+            class="thbimg"
+            src="../youtubeClone/thumbnails/images/thumbnail-1.webp"
+          />
+        </div>
+        <div class="videoInfo">
+          <p class="videotitle">
+            How to compete against CS degree (as a self-taugh dev)
+          </p>
+          <p class="channel">SuperSimpleDev</p>
+          <p class="videostats">1.5k views &#183; 4 mounths ago</p>
+        </div>
+      </div>
+      <div class="videopreviewframe">
+        <div class="thumbvideo">
+          <img
+            class="thbimg"
+            src="../youtubeClone/thumbnails/images/thumbnail-1.webp"
+          />
+        </div>
+        <div class="videoInfo">
+          <p class="videotitle">
+            How to compete against CS degree (as a self-taugh dev)
+          </p>
+          <p class="channel">SuperSimpleDev</p>
+          <p class="videostats">1.5k views &#183; 4 mounths ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="alladdscat">
+      <div class="addcat">
+        <div class="catimframe">
+          <img
+            class="catim"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catinfo">
+          <div class="catname">Oliver</div>
+          <div class="avatarname">
+            <div class="useravatarframe">
+              <img
+                class="useravatar"
+                src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+              />
+            </div>
+            <div class="numberfriends">3 mutual friends</div>
+          </div>
+          <div class="adfriendframe">
+            <button class="addfriend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+      <div class="addcat">
+        <div class="catimframe">
+          <img
+            class="catim"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catinfo">
+          <div class="catname">Mimi</div>
+          <div class="avatarname">
+            <div class="useravatarframe">
+              <img
+                class="useravatar"
+                src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+              />
+            </div>
+            <div class="numberfriends">5 mutual friends</div>
+          </div>
+          <div class="adfriendframe">
+            <button class="addfriend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+      <div class="addcat">
+        <div class="catimframe">
+          <img
+            class="catim"
+            src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+          />
+        </div>
+        <div class="catinfo">
+          <div class="catname">Mike</div>
+          <div class="avatarname">
+            <div class="useravatarframe">
+              <img
+                class="useravatar"
+                src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+              />
+            </div>
+            <div class="numberfriends">8 mutual friends</div>
+          </div>
+          <div class="adfriendframe">
+            <button class="addfriend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
