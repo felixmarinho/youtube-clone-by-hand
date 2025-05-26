@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Flexbox Html</title>
+    <style>
+      .dv1 {
+        display: flex;
+        align-items: center;
+      }
+      .dv1-1 {
+        background-color: lightpink;
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .dv1-1-1 {
+        background-color: black;
+        color: white;
+      }
+      .dv1-2 {
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .dv1-2-1 {
+        width: 100%;
+      }
+      .dv1-2-11 {
+        background-color: lightgray;
+      }
+      .dv1-2-1 {
+        display: flex;
+      }
+      .dv1-2-2 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .dv1-2-3 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dv1">
+      <div class="dv1-1">
+        <div class="dv1-1-1">item1</div>
+      </div>
+      <div class="dv1-2">
+        <div class="dv1-2-1">
+          <div class="dv1-2-11">row1</div>
+        </div>
+        <div class="dv1-2-2">
+          <div class="dv1-2-3">row2</div>
+          <div class="dv1-2-3">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
