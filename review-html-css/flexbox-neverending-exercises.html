@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Very last Flexbox exercise</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+      }
+      .twpost {
+        width: 390px;
+        display: flex;
+        margin: 15px;
+      }
+      .imgusr {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .postcontents {
+        margin-left: 13px;
+      }
+      .firstlinecontent {
+        display: flex;
+      }
+      .username {
+        font-weight: 600;
+      }
+      .usera {
+        color: #999;
+        margin-left: 5px;
+      }
+      .posttext {
+        margin-top: 6px;
+        line-height: 20px;
+      }
+      .ytlinkframe {
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        height: 90px;
+        margin-top: 20px;
+        display: flex;
+      }
+      .grayframe {
+        background-color: #ccc;
+        width: 130px;
+        border-radius: 15px 0px 0px 15px;
+      }
+      .ytinfo {
+        margin-left: 10px;
+        margin-top: 13px;
+      }
+      .sitename {
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="twpost">
+      <div class="imgusrdiv">
+        <img
+          class="imgusr"
+          src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+        />
+      </div>
+      <div class="postcontents">
+        <div class="firstlinecontent">
+          <div class="username">supersimple.dev</div>
+          <div class="usera">@SuperSimpleDev</div>
+        </div>
+        <div class="posttext">
+          What is backend web development? A complete overview. New video is up!
+        </div>
+        <div class="ytlinkframe">
+          <div class="grayframe"></div>
+          <div class="ytinfo">
+            <div class="sitename">youtube.com</div>
+            <div>Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
