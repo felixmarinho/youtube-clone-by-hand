@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Exercise 03</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .fixedsb {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 65px;
+        display: flex;
+        justify-content: center;
+        background-color: #1f2226;
+      }
+      .userimages {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 8px;
+      }
+      .actimg {
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .mvsidebar {
+        width: 160px;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 65px;
+        background-color: #2f3035;
+      }
+      .infobar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 15px;
+        color: #fff;
+      }
+      .roomname {
+        color: #888;
+        padding-top: 15px;
+      }
+      .plussign {
+        font-size: 20px;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fixedsb">
+      <div class="userimages">
+        <img
+          class="actimg"
+          src="../youtubeClone/thumbnails/images/user-avatar.jpg"
+        />
+        <img
+          class="actimg"
+          src="../youtubeClone/thumbnails/images/channel-1.jpeg"
+        />
+        <img
+          class="actimg"
+          src="../youtubeClone/thumbnails/images/channel-2.jpeg"
+        />
+      </div>
+    </div>
+    <div class="mvsidebar">
+      <div class="infobar">
+        <div class="info">INFO</div>
+        <div class="plussign">+</div>
+      </div>
+      <div class="roomlist">
+        <div class="roomname"># new-videos</div>
+        <div class="roomname"># updates</div>
+        <div class="roomname"># faq</div>
+      </div>
+    </div>
+  </body>
+</html>
