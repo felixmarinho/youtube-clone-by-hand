@@ -1,7 +1,18 @@
+body {
+  padding-top: 70px;
+}
 .header {
   height: 55px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e1e1e1;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .left-section {
   display: flex;
