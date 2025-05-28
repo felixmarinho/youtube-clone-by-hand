@@ -50,7 +50,6 @@ body {
   font-size: 15px;
 }
 .searchicon {
-  margin-top: 3px;
   height: 24px;
 }
 .search-button {
@@ -62,14 +61,53 @@ body {
   margin-left: -1px;
   margin-right: 8px;
 }
+.search-button,
+.voice-button,
+.ytapps,
+.notifbut,
+.uploadicon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-button .tooltip,
+.uploadicon .tooltip,
+.ytapps .tooltip,
+.notifbut .tooltip,
+.voice-button .tooltip {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 2px;
+  font-size: 11px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.uploadicon:hover .tooltip,
+.ytapps:hover .tooltip,
+.notifbut:hover .tooltip,
+.voice-button:hover .tooltip {
+  opacity: 1;
+}
+
 .voice-button {
   border-radius: 30px;
   border: none;
+  padding: 4px 4px 4px 4px;
   background-color: #f1f1f1;
 }
 
 .voiceicon {
-  margin-top: 3px;
   height: 23px;
 }
 
@@ -96,8 +134,8 @@ body {
 }
 .redicon {
   position: absolute;
-  top: -2px;
-  right: -3px;
+  top: -3px;
+  right: -4px;
   background-color: red;
   color: white;
   font-family: Roboto, Arial;
@@ -107,4 +145,5 @@ body {
   padding-right: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
+  z-index: 300;
 }
