@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challange exercise</title>
+    <style>
+      .addspage {
+        display: flex;
+        gap: 10px;
+      }
+      .clothadd {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(179, 179, 179);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .clothimg {
+        width: 230px;
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .discounttag {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        background-color: black;
+        color: white;
+        font-family: Roboto, Arial;
+        font-size: 13px;
+        padding: 8px 11px 8px 11px;
+      }
+      .addfavbut {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .button {
+        position: absolute;
+        background-color: white;
+        border: solid 1px black;
+        padding: 8px 15px 8px 15px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="addspage">
+      <div class="clothadd">
+        <div class="discounttag">20% OFF</div>
+        <img
+          class="clothimg"
+          src="images/plain-black-t-shirt-on-transparent-background-free-png-1562707273.png"
+        />
+      </div>
+      <div class="clothadd">
+        <div class="discounttag">20% OFF</div>
+        <div class="addfavbut">
+          <button class="button">Add to Cart</button>
+        </div>
+        <img
+          class="clothimg"
+          src="images/plain-black-t-shirt-on-transparent-background-free-png-1562707273.png"
+        />
+      </div>
+    </div>
+  </body>
+</html>
