@@ -18,6 +18,12 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .video-author,
 .video-stats {
   font-size: 12px;
@@ -48,7 +54,4 @@
   position: absolute;
   right: 8px;
   bottom: 10px;
-}
-.video-link {
-  cursor: pointer;
 }
