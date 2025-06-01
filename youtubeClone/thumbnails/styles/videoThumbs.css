@@ -47,6 +47,18 @@ a:link {
 .video-author {
   margin-bottom: 4px;
 }
+@media (min-width: 1000px) {
+  .videoTitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 1000px) {
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
+}
 .profilePicture {
   width: 100%;
   border-radius: 50px;
