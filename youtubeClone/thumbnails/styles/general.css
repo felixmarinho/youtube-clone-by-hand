@@ -2,6 +2,7 @@ p {
   margin: 0px 0px 0px 10px;
 }
 body {
+  /* this style below will be inherited */
   margin: 0;
   font-family: Roboto, Arial;
   padding-left: 96px;
