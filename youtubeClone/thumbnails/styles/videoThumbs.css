@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
-  row-gap: 35px;
+  row-gap: 85px;
 }
 @media (max-width: 750px) {
   .video-grid {
@@ -22,6 +22,7 @@
 .video-info-grid {
   display: grid;
   grid-template-columns: 30px 1fr;
+  grid-template-rows: 40px 1fr;
 }
 .thumbnail {
   width: 100%;
@@ -62,6 +63,41 @@ a:link {
 .profilePicture {
   width: 100%;
   border-radius: 50px;
+}
+.channelPicture {
+  position: relative;
+}
+.channelTooltip {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  width: 200px;
+  height: 45px;
+  display: flex;
+  column-gap: 10px;
+  padding: 15px;
+  z-index: 700;
+  align-items: center;
+  position: absolute;
+  bottom: -105px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.channelTooltip .profilePicture {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+}
+.channelTooltip .pfTooltipStats .video-author {
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  z-index: 401;
+}
+.channelPicture:hover .channelTooltip {
+  opacity: 1;
+  pointer-events: none;
 }
 .thumbnailRow {
   margin-bottom: 8px;
