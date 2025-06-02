@@ -1,6 +1,6 @@
 # Youtube Clone
 
-In order to pratice with HTML and CSS I build this You Tube Clone based on the Super Simple Dev full HTML & CSS Course.
+To pratice HTML and CSS I build this responsive You Tube Clone based on the Super Simple Dev full HTML & CSS Course.
 
 HTML and CSS only with features like:
 
