@@ -1,4 +1,4 @@
-# youtube-clone-by-hand
+# Youtube Clone
 
 In order to pratice with HTML and CSS I build this You Tube Clone based on the Super Simple Dev full HTML & CSS Course.
 
