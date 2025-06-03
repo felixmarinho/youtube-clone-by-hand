@@ -14,4 +14,5 @@ HTML and CSS only with features like:
 
 Access in this link: https://felixmarinho.github.io/youtube-clone-by-hand/
 
-![image](https://github.com/user-attachments/assets/77ebaade-680c-4a59-8fee-d0079f74661e)
+<img width="1464" alt="image" src="https://github.com/user-attachments/assets/57d6dc25-be93-424f-ac18-31621afa4179" />
+
